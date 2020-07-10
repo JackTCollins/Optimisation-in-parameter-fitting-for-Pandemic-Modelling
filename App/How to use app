@@ -1,0 +1,13 @@
+The following contains a four step guide to getting started using the App provided and explains briefly what the app does.
+
+Step One: Pull everything from this folder.
+Step Two: Pull the CSV files from the Data folder on this repository 
+Step Three: Open all MATLAB files given and open the app.
+Step Four: Click Run in the app window.
+
+The app is now opened and running. Using this app you can select a country and view the COVID-19 active case profile. It also fits an SIR Model to the country. 
+To get the best fir, click the optimise button on the app and wait for it to update the beta and gamma values. The app suplies you with the new fit a swell as optimised
+values for Beta and Gamma and calculates the new R_0 value (Reproduction Number)
+To learn more about the SIR Model go to https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model
+This app and accompanying MATLAB files were written by Jack Collins and Niall Madden of NUI Galway, July 2020
+CSV Data files were gotten from ourworldindata.org and data.gov.ie
