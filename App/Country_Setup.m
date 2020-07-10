@@ -20,7 +20,7 @@ if (~isvarname(MyISO))
 end
 
 %% Load data from file 
-CSVdata = readtable('.../Data/owid-covid-data.csv');
+CSVdata = readtable('../Data/owid-covid-data.csv');
 
 %% Process ISOs
 Country_to_ISO = containers.Map(CSVdata.location, CSVdata.iso_code);
