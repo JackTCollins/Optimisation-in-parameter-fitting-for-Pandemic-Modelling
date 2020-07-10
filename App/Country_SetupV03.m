@@ -14,10 +14,12 @@ if (~isvarname(MyISO))
 end
 
 %% Load data from file
-CSVdata = readtable('../../data/owid-covid-data.csv');
+CSVdata = readtable('../Data/owid-covid-data.csv');
 
 %% Process ISOs
 Country_to_ISO = containers.Map(CSVdata.location, CSVdata.iso_code);
+%Country_to_Continent = containers.Map(CSVdata.location, CSVdata.continent);
+
 ISOs=categorical(CSVdata.iso_code);
 MyCols=find(ISOs == MyISO); % All with matching MyISO
 % get rid of any nans
