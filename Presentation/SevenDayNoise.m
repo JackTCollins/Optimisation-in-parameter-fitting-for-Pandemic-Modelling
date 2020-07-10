@@ -3,6 +3,7 @@
 % trend and applies it to generated data.
 % It also attempts to reduce the effect the noise has on our ability to fit
 % a curve to the data by smoothing out the noisy data
+% Written by Jack Collins of NUI Galway, July 2020
 clear all;
 % Create data to introduce noise to (Gaussian Curve)
 t = linspace(0,100,55)';
