@@ -1,5 +1,6 @@
 % The following code is for generating the bar charts seen within the
-% 'Optimisation in parameter fitting for Pandemoc Modelling' oresentation
+% 'Optimisation in parameter fitting for Pandemoc Modelling' presentation
+% Written by Jack Collins of NUI Galway, July 2020
 clear all;
 read = readtable('Data/CovidStatisticsProfileHPSCIrelandOpenData.csv');      % Read in data to table
 narrow = table2array(read(:,4:8));                                          %Selects the few coloumns needed friom the table
